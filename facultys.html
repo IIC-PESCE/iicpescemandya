@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IIC Faculty </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+	background: #bf9a94;
+}
+
+.wrapper .header{
+	width: 100%;
+	height: 50px;
+	background: #e3b56666;
+	color: rgb(5, 2, 2);
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 900;
+}
+
+.cards_wrap{
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.cards_wrap .card_item{
+	padding: 15px 25px;
+	width: 25%;
+}
+
+.cards_wrap .card_inner{
+	background: #e6e1d5;
+	border-radius: 5px;
+	padding: 35px 20px;
+	min-width: 225px;
+	min-height: 315px;
+	max-height: 370px;
+	width: 100%;
+}
+
+.cards_wrap .card_item img{
+	width: 80px;
+	height: 80px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+}
+
+.cards_wrap .card_item .role_name{
+	color: #e36686;
+	font-weight: 900;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 20px;
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.cards_wrap .card_item .real_name{
+	color: #000000;
+	font-size: 12px;
+	font-weight: 400;
+	margin: 5px 0 10px;
+}
+
+.cards_wrap .card_item .film{
+	font-size: 14px;
+	line-height: 24px;
+	color: #7b8ca0;
+}
+
+@media screen and (max-width: 1024px){
+	.cards_wrap .card_item{
+		width: 33%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.cards_wrap .card_item{
+		width: 50%;
+	}
+	.wrapper .header{
+		font-size: 16px;
+		height: 60px;
+	}
+}
+
+@media screen and (max-width: 568px){
+	.cards_wrap .card_item{
+		width: 100%;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 320px){
+	.cards_wrap .card_item{
+		width: 100%;
+	}
+	.wrapper .header{
+		font-size: 14px;
+	}
+}
+/* CSS */
+.button-32 {
+  background-color: #e6e1d5;
+  border-radius: 25px;
+  color: rgb(19, 16, 19);
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 2.5px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 40%;
+  height: 35px;
+  box-sizing: border-box;
+  border: solid black 1px;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #e3b56666;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+footer{
+	background-color: black;
+	color: #eeeff4;
+	text-align: center;
+}
+  </style>
+</head>
+<body>
+ 
+<div class="wrapper">
+	<div class="header"> <img src="logo.png" alt="" height="35px" width="35px"> &nbsp;IIC-PESCE,Faculty Co-Ordinators</div>
+
+	<div class="cards_wrap">
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/vinay.jpeg">
+				<div class="role_name">Dr. Vinay S</div>
+				<div class="real_name">IIC-PESCE,President</div>
+				<div class="film"> Training & Placement Officer,PESCE Mandya
+				</div>
+				<br>
+				<div class="btn">
+					<a href=""><button class="button-32" role="button">View</button></a>
+				</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/pavan.jpeg">
+				<div class="role_name">Mr.Pavan K N</div>
+				<div class="real_name">IIC-PESCE,Vice-President</div>
+				<div class="film">Asst Prof,Department of ME
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+                <div class="btn">
+	             <a href=""><button class="button-32" role="button">View</button></a>
+                </div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/siddesh.jpeg">
+				<div class="role_name">Mr.SiddeshKumar NM</div>
+				<div class="real_name">Convener IIC-PESCE</div>
+				<div class="film">Asst Prof,Department of ME
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/ramesh kurbet.jpeg">
+				<div class="role_name">Mr.Ramesh Kurbet</div>
+				<div class="real_name">Innovation & Social Media Coordiator</div>
+				<div class="film">Asct Prof,Department of ME
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Chethan Kumar V.jpeg">
+				<div class="role_name">Mr. V Chethan Kumar</div>
+				<div class="real_name">Internship Coordinator</div>
+				<div class="film">Asst Prof,Department of CSE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/shilapa.jpeg">
+				<div class="role_name">Mrs. Shilpa HL</div>
+				<div class="real_name">Social Media Coordinator</div>
+				<div class="film">Asst Prof,Department of MCA
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/yathish.jpeg">
+				<div class="role_name">Mr. Yathish MK</div>
+				<div class="real_name">IPR Activity & Social Media Coordinator</div>
+				<div class="film">Asst Prof,Department of IPE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/kiran.jpeg">
+				<div class="role_name">Dr.Kirankumar AC</div>
+				<div class="real_name">IPR Activity Coordiator </div>
+				<div class="film">Asct Prof,MBA
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Mahesh kot.jpeg">
+				<div class="role_name">Dr. Mahesh Koti</div>
+				<div class="real_name">Internship Activity</div>
+				<div class="film">Asst Prof,Department of ECE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Jagdeesh.jpeg">
+				<div class="role_name">Dr. N Jagadeesh</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of AE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Shivraj.jpeg">
+				<div class="role_name">Mr.Shivaraj G Nayak</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of CE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Manohar.jpeg">
+				<div class="role_name">Mr.Manohar HC</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of E&EE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Ravi.jpeg">
+				<div class="role_name">Mr.Ravi Y C</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of ECE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Bhavya mam.jpeg">
+				<div class="role_name">Mrs. Bhavya D</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of CSE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/Akshay.jpeg">
+				<div class="role_name">Mr.Akshay RN</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of AE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/gana.jpeg">
+				<div class="role_name">MRs.Gaana H</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of EEE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/divya.jpeg">
+				<div class="role_name">Mrs.Divya Shree M</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of CE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/rakshith.jpeg">
+				<div class="role_name">Mr.Rakshith N</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of ISE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/rashmi.jpeg">
+				<div class="role_name">Mrs.Rashmi MP</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of CE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>		
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/suraj.jpeg">
+				<div class="role_name">Mr.Suraj BS</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of CSE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>
+		<div class="card_item">
+			<div class="card_inner">
+				<img src="images/sreenivasa.jpeg">
+				<div class="role_name">Mr.Sreenivasa M</div>
+				<div class="real_name">Internal Member</div>
+				<div class="film">Asst Prof,Department of IPE
+					<br>
+					PESCE,Mandya
+				</div>
+				<br>
+<div class="btn">
+ <a href=""><button class="button-32" role="button">View</button></a>
+</div>
+			</div>
+		</div>				
+	</div>
+</div>  
+<footer>
+	<p>@ Developed by <a href="#">_TEAM_</a>IIC-PESCE &nbsp;🎯</p>
+</footer>
+</body>
+</html>
